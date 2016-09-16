@@ -598,7 +598,7 @@
 		ul.icons {
 			cursor: default;
 			list-style: none;
-			padding-left: 0;
+			padding-left: 15px;
 		}
 
 			ul.icons li {
@@ -1058,22 +1058,34 @@
 
 	@media screen and (max-width: 736px) {
 		.content .info{
-			margin: 80px auto;
+			margin: 70px auto;
 		}
 		body{
-			background: linear-gradient(
-			rgba(255, 0, 0, 0.45), 
-			rgba(255, 0, 0, 0.45)
-			) url("../../images/aj1.jpg") no-repeat fixed center;
+
+			
+			background:  linear-gradient(rgba(179, 107, 0, 0.85),rgba(179, 107, 0, 0.85)), url("../../images/aj1.jpg");
+			background-size: 100% 100%;
+			
 		}
 		#header h1 {
 			font-size: 2em;
 		}
 
-		#header p {
-			font-size: 1em;
+		.content{
+			min-height: 450px;
+			max-height: 450px;
+			padding-top: 0;
 		}
 
+		p {
+			font-size: 1em;
+			color: white !important;
+		}
+
+		input[type="text"], input[type="password"], input[type="email"], select, textarea { border: solid 2px rgba(255, 255, 255, 0.85);}
+		#footer{
+			color: rgba(255, 255, 255, 0.85);
+		}
 	}
 
 	@media screen and (max-width: 480px) {
@@ -1151,7 +1163,7 @@
 		left: 4em;
 		opacity: 0.5;
 		position: absolute;
-		padding-left: 15px;
+		padding-left: 15px !important;
 	}
 
 		#footer .icons {
@@ -1206,6 +1218,9 @@
 			#footer {
 				bottom: 2em;
 				left: 2em;
+				color: rgba(255, 255, 255, 1);
+				
+
 			}
 
 		}
