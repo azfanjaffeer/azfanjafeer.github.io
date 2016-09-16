@@ -30,7 +30,7 @@
 				$body.classList.remove('is-loading');
 			}, 100);
 		});
-
+/*
 	// Slideshow Background.
 		(function() {
 
@@ -102,7 +102,7 @@
 
 				}, settings.delay);
 
-		})();
+		})(); */
 
 	// Signup Form.
 		(function() {

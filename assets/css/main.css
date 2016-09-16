@@ -79,6 +79,7 @@
 		height: 100%;
 		overflow-x: hidden;
 		width: 100%;
+		background-color: black;
 	}
 
 		@media screen and (max-height: 640px) {
@@ -103,7 +104,7 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-color: #000;
+		background-color: 	 #b36b00;
 		padding: 6em 4em 4em 4em;
 	}
 
@@ -466,12 +467,42 @@
 		}
 
 /* Section/Article */
+	.content{
+		padding-bottom: 8rem;
+		padding-top: 2rem;
+		overflow: hidden;
+		display: flex;
+		min-height: 600px;
+		max-height:600px;
+		vertical-align: middle;
+	}
+
+	.content .info{
+		margin: 150px auto;
+		max-height: 500px;
+		vertical-align: middle;
+	}
+
+	.content .book {
+		max-height: 400px;
+		align-items: center;
+	}
+
+	.content img{
+		align-items: center;
+		display:block;
+		margin: 0 auto;
+		max-height: 500px;
+		    max-width: 100%;
+    height: auto;
+    width: auto\9;
+	}
 
 	section.special, article.special {
 		text-align: center;
 	}
 
-	header p {
+	 p {
 		color: rgba(255, 255, 255, 0.5);
 		position: relative;
 		margin: 0 0 1.5em 0;
@@ -1026,7 +1057,15 @@
 	}
 
 	@media screen and (max-width: 736px) {
-
+		.content .info{
+			margin: 80px auto;
+		}
+		body{
+			background: linear-gradient(
+			rgba(255, 0, 0, 0.45), 
+			rgba(255, 0, 0, 0.45)
+			) url("../../images/aj1.jpg") no-repeat fixed center;
+		}
 		#header h1 {
 			font-size: 2em;
 		}
@@ -1112,6 +1151,7 @@
 		left: 4em;
 		opacity: 0.5;
 		position: absolute;
+		padding-left: 15px;
 	}
 
 		#footer .icons {
@@ -1149,6 +1189,8 @@
 		#footer > :last-child {
 			margin-bottom: 0;
 		}
+
+	
 
 		@media screen and (max-width: 1680px) {
 
