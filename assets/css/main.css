@@ -2530,6 +2530,7 @@ padding-right: 5em;
 	
 	height: 150px;
 	display: inline-block;
+	line-height: 150px;
 	
 }
 
@@ -2538,6 +2539,24 @@ padding-right: 5em;
 	vertical-align: middle;
 	margin: auto 0;
 }
+
+#three .headshot{
+	width: 160px;
+	vertical-align: middle;
+	margin: auto 0;
+}
+
+#three .quote{
+	margin-top:2em;
+}
+
+#three .execs{
+	padding-top: 2em;
+}
+ #three span{
+	 font-weight: bold;
+	 	font-style: normal;
+ }
 
 #cta .actions img{
 	padding-top: 3em;
