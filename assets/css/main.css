@@ -327,10 +327,6 @@
 
 	@media screen and (max-width: 980px) {
 
-		header br {
-			display: none;
-		}
-
 	}
 
 /* Form */
@@ -363,8 +359,9 @@
 		display: block;
 		outline: 0;
 		padding: 0 1em;
+		margin: auto;
 		text-decoration: none;
-		width: 100%;
+		width: 70%;
 	}
 
 		input[type="text"]:invalid,
@@ -380,7 +377,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px white;
 		}
 
 	.select-wrapper {
@@ -1482,7 +1479,7 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;  /*8c4c47*/
+			background-color: #505369;  /*8c4c47*/
 			color: #d3d4e4;
 		}
 
@@ -2085,7 +2082,7 @@
 	#banner .info{
 		vertical-align: middle;
 		padding-left: 3em;
-		padding-top: 10em;
+		padding-top: 7em;
 	}
 
 		#banner h2 {
@@ -2236,9 +2233,21 @@ padding-right: 5em;
 					font-size: 1.25em;
 				}
 
-				#banner br {
-					display: none;
+				#banner p {
+					padding-left: 1em;
+					padding-right: 1em;
 				}
+
+				input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select,
+	textarea {
+	
+		width: 90%;
+	}
+
+				
 
 				#banner .more {
 					display: none;
